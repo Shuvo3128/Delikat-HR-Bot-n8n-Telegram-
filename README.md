@@ -13,13 +13,16 @@
 > 2. Save the image as `workflow-overview.png` in this folder
 > 3. The image will automatically appear below
 
-![Main HR Bot Workflow](./workflow-overview.png)
+![Main HR Bot Workflow]
+<img width="1235" height="693" alt="image" src="https://github.com/user-attachments/assets/2091d89a-ec62-4f7a-ad69-556634c3e0a3" />
 
 ### Ingestion Workflow (PDF → Qdrant)
-![PDF Ingestion Workflow](./workflow-ingestion.png)
+![PDF Ingestion Workflow]
+<img width="711" height="395" alt="image" src="https://github.com/user-attachments/assets/4eeb5e12-b4e9-4f7d-a3df-c90bc8e131c2" />
 
 ### RAG Query Workflow (Policy Q&A)
-![RAG Query Workflow](./workflow-rag.png)
+![RAG Query Workflow]
+<img width="318" height="296" alt="image" src="https://github.com/user-attachments/assets/c3ecfe19-1e64-4a5c-b3ce-1617836bd0f0" />
 
 ---
 
