@@ -8,11 +8,6 @@
 
 ## 📸 Workflow Overview
 
-> **How to add workflow image:**
-> 1. Export your n8n workflow as an image (screenshot or use n8n's export feature)
-> 2. Save the image as `workflow-overview.png` in this folder
-> 3. The image will automatically appear below
-
 ![Main HR Bot Workflow]
 <img width="1235" height="693" alt="image" src="https://github.com/user-attachments/assets/2091d89a-ec62-4f7a-ad69-556634c3e0a3" />
 
