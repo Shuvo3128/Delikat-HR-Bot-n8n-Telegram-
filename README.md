@@ -62,26 +62,40 @@
 Telegram Message
       │
       ▼
-Auth Check (Manager Lookup — Google Sheets)
+┌─────────────────────────────────┐
+│   Auth Check                    │
+│   Manager Lookup — Google Sheets│
+└─────────────────────────────────┘
+      │ Authorized          │ Unauthorized
+      ▼                     ▼
+Intent Parser (JS)     ❌ Access Denied
       │
       ▼
-Intent Parser (JavaScript)
-      │
-      ▼
-┌─────────────────────────────────────────┐
-│              Switch Router              │
-└──┬──────┬──────┬──────┬──────┬─────────┘
-   │      │      │      │      │
-   ▼      ▼      ▼      ▼      ▼
-Count  Add     Add   Gen    Policy
-       Absence Warning Doc   Q&A
-                             │
-                             ▼
-                        Qdrant Vector DB
-                        (1,252 points)
-                             │
-                             ▼
-                        GPT-4o Answer
+┌─────────────────────────────────────────────────┐
+│                  Switch Router                   │
+└──┬─────┬──────┬──────┬───────┬──────┬───────────┘
+   │     │      │      │       │      │
+   ▼     ▼      ▼      ▼       ▼      ▼
+Count  Add    Add   Generate Generate Policy
+       Absence Warning Warning Contract Q&A
+         │      │      Doc     Doc      │
+         │      │       │       │       ▼
+         │      │       ▼       ▼   Qdrant Vector DB
+         │      │   Google   Google  (1,252 points)
+         │      │   Docs     Docs        │
+         ▼      ▼       │       │        ▼
+    Permission Permission ▼      ▼   GPT-4o (OpenAI)
+    Check      Check   PDF     PDF       │
+    (Area)     (Area)  →Drive  →Drive    ▼
+         │      │       │       │   Telegram Reply
+         ▼      ▼       ▼       ▼   (Spanish Answer
+    Google  Google  Telegram Telegram  + Article Ref)
+    Sheets  Sheets  Send    Send
+    Append  Append  PDF     PDF
+         │      │
+         ▼      ▼
+    Telegram Telegram
+    Confirm  Confirm
 ```
 
 ---
