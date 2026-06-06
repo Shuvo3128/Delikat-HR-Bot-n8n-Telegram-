@@ -231,7 +231,7 @@ How many absences does [name] have?
 
 **Shuvo Biswas**
 ```
-**AI Engineer (Softvence Agency Group of Betopia)** 
+AI Engineer (Softvence Agency Group of Betopia)
 ```
 ---
 
