@@ -154,7 +154,7 @@ DELIKAT HR Bot
 | Action | Management | Area Manager |
 |---|---|---|
 | View own area employees | ✅ | ✅ |
-| View other area employees | ✅ | ❌ |
+| View other area employees | ✅ | 
 | Add absence/warning | ✅ | Own area only |
 | Generate documents | ✅ | Own area only |
 | Policy Q&A | ✅ | ✅ |
@@ -171,10 +171,10 @@ DELIKAT HR Bot
 | Count absence/warning | ✅ Complete |
 | Permission check | ✅ Complete |
 | RAG / Policy Q&A | ✅ Complete |
-| Document generation | 🟡 In Progress |
-| Drive folder structure | 🔴 Pending |
-| Add/update employee | 🔴 Pending |
-| Client n8n migration | 🔴 Pending |
+| Document generation | ✅ Complete |
+| Drive folder structure | ✅ Complete |
+| Add/update employee | ✅ Complete |
+| Client n8n migration | ✅ Complete |
 
 ---
 
@@ -220,8 +220,8 @@ How many absences does [name] have?
 
 ## 👨‍💻 Built By
 
-**Sohan Islam**
-n8n Automation Developer
+**Shuvo Biswas**
+AI Engineer 
 
 ---
 
@@ -233,5 +233,5 @@ n8n Automation Developer
 | May 10, 2026 | Core HR bot + auth system |
 | May 22, 2026 | RAG / Knowledge base complete |
 | June 3, 2026 | Absence/Warning tracking + permissions |
-| TBD | Document generation + Drive integration |
+| June 10, 2026| Document generation + Drive integration |
 | TBD | Client n8n migration + delivery |
