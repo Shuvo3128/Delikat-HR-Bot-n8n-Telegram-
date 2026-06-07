@@ -1,12 +1,12 @@
 # Delikat-HR-Bot-n8n-Telegram-
 
-# 🤖 DELIKAT HR Bot — AI-Powered Human Resources Assistant
+#  DELIKAT HR Bot — AI-Powered Human Resources Assistant
 
 > An intelligent, Telegram-based HR automation system built with n8n for DELIKAT restaurant group. Designed for management and area managers to handle HR tasks through natural language — no technical knowledge required.
 
 ---
 
-## 📸 Workflow Overview
+##  Workflow Overview
 
 <img width="1235" height="693" alt="image" src="https://github.com/user-attachments/assets/2091d89a-ec62-4f7a-ad69-556634c3e0a3" />
 
@@ -20,37 +20,37 @@
 
 ---
 
-## 🌟 Features
+##  Features
 
-### 👥 Employee Management
+###  Employee Management
 - Track employee records stored in Google Sheets
 - Add absences (faltas) and warnings (amonestaciones) via Telegram
 - Count records by type (Absence / Warning / Sick leave)
 
-### 📄 Document Generation
+###  Document Generation
 - Generate warning letters and contracts automatically
 - Documents created in Google Docs and sent as PDF via Telegram
 
-### 🔐 Role-Based Permissions
+###  Role-Based Permissions
 - **Management** — Full access to all areas
 - **Area Managers** — Restricted to their own area only
 - Bot blocks cross-area data access automatically
 
-### 🧠 AI Knowledge Base (RAG)
+###  AI Knowledge Base (RAG)
 - Answers HR policy questions in Spanish
 - Based on internal documents:
   - Reglamento Interno de Trabajo (DELIKAT)
   - Código de Trabajo de El Salvador
 - Cites specific articles as references
 
-### 💬 Natural Language Interface
+###  Natural Language Interface
 - No commands needed — just type naturally in Telegram
 - Supports Spanish and English
 - Friendly fallback messages for unrecognized inputs
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Telegram Message
@@ -110,7 +110,7 @@ Count  Add    Add   Generate Generate Policy
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DELIKAT HR Bot
@@ -135,7 +135,7 @@ DELIKAT HR Bot
 
 ---
 
-## 💬 Example Commands
+##  Example Commands
 
 ```
 # Absence & Warning Tracking
@@ -157,7 +157,7 @@ DELIKAT HR Bot
 
 ---
 
-## 🔒 Security & Permissions
+##  Security & Permissions
 
 | Action | Management | Area Manager |
 |---|---|---|
@@ -169,7 +169,7 @@ DELIKAT HR Bot
 
 ---
 
-## 📊 Current Status
+##  Current Status
 
 | Feature | Status |
 |---|---|
@@ -186,7 +186,7 @@ DELIKAT HR Bot
 
 ---
 
-## 🚀 Setup Guide
+##  Setup Guide
 
 ### Prerequisites
 - n8n instance (self-hosted or cloud)
@@ -226,7 +226,7 @@ How many absences does [name] have?
 
 ---
 
-## 👨‍💻 Built By
+##  Built By
 
 **Shuvo Biswas**
 ```
@@ -234,7 +234,7 @@ AI Engineer (Softvence Agency Group of Betopia)
 ```
 ---
 
-## 📅 Project Timeline
+##  Project Timeline
 
 | Date | Milestone |
 |---|---|
